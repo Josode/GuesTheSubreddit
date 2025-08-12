@@ -7,8 +7,8 @@ app.secret_key = 'your_secret_key'
 
 # Configure PRAW
 reddit = praw.Reddit(
-    client_id='0UUWJ-BXRGoAog',
-    client_secret='1XupjI5-KwSROlCDJgMMA3YnF8k',
+    client_id='client_id',
+    client_secret='client_secret',
     user_agent='SubredditGuessGame/0.1 by testingbot321'
 )
 
